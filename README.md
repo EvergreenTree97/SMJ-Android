@@ -1,54 +1,64 @@
-# SMJ-Android - 1인 가구를 위한 앱
+# 세상의 모든 자취생 (세모자) App
 
-### 1. 살림 팁을 공유하고 사람들과 소통하고 싶을때
-### 2. 살림 물건을 사고 팔때
-### 3. 주변 편의시설 검색이 필요할때
-### 4. 세상의 모든 1인 가구를 위해
+<img width = 600 height = 350  src="https://user-images.githubusercontent.com/72602912/156167782-d9b6318c-2f6b-4b72-b755-6c3c039cc602.png"/>
 
-## 개발기간
-2020.09 ~ 2021.03
+## 👩‍🏫PROJECT 소개
 
-## 프로젝트 소개
+세상의 모든 1인 가구를 위해 만들고자 한 앱 입니다.
 
-* 프로젝트명: 세상의 모든 자취생
-* 서비스 특징: 1인 가구를 위한 앱
-* 주요 기능
-  - 회원 관리
-  - 살림 꿀팁 게시판
-  - 주변 편의시설 검색(Map)
-  - 메세지 및 소통 서비스
-* 주요 기술
-  - JWT Authentication
-  - Retrofit
-  - Kakao API
+살림 팁을 공유하고 사람들과 소통하고 싶을 때,
 
+살림 물건을 사고 팔 때,
 
-## System Architecture
-![image](https://user-images.githubusercontent.com/54352208/157376284-94e277f3-c0f3-4167-ac54-857a61085855.png)
-- **Client**:
-  - OS: Android SDKs
-  - HTTP Client: Retrofit
-  - Asyncronous Task Manager: RxJava
-  - JSON Object Mapper: Gson
-  - Image Loader: Glide
-- **Server**
-  - WAS: Nginx 1.17
-  - Web Application Framework: Spring Boot 2.4.5
-  - Database: MySQL
-  - Language: JAVA
-- **AWS**
-  - Ec2
+주변 편의시설 검색이 필요할 때,
 
+세모자를 이용해서 편리함을 느껴보세요.
 
-## Software Stack
-![image](https://user-images.githubusercontent.com/54352208/157376688-17a9f14b-dd30-46b2-9c76-8022f24b251a.png)
+🗓️ **작업기간** : 2020.09 ~ 2021.03
 
-## 결과물 Preview
-![image](https://user-images.githubusercontent.com/54352208/157376872-230e8481-c167-4a39-9693-217598ef9020.png)
+👨‍💻 **투입인원** : 멘토(2명), 안드로이드(4명), 서버(3명), 디자인(2명)
 
-### Members
-- **Android Developers**
-  - *Lee, Woon-gi*: [Blog](https://mynamewoon.tistory.com/manage/posts), [GitHub](https://github.com/leewoongi)
-  - *Hong, jong-hyun*: [Blog](https://comcompu.tistory.com/), [GitHub](https://github.com/jonghyunH)
-  - *RyuSw*: [GitHub](https://github.com/RyuSw-cs)
-  - *EvergreenTree97*: [GitHub](https://github.com/EvergreenTree97)
+📒 **주요업무** 
+
+- 스터디를 통한 Android 이해와 학습
+- UI/UX 설계 및 모델링
+- Restful API 통신
+- 카카오 맵, 로그인 API 구현
+- 아키텍처 구조 구현
+- 유지보수
+
+💪**개선사항**
+
+- 지속적인 UI 수정
+- 자동로그인을 위한 Shared Preferences 적용(2021-03-14)
+- 싱글톤 패턴 적용(2021-04-04)
+
+🌱 **사용툴**
+
+`Android Studio` `Zeplin` `Slack` `Notion` `Github` `SourceTree`
+
+## 🙆🏻‍♂️클라이언트
+
+👨‍💻 **투입인원** : 4명
+
+👨‍💻 **사용 OS** : Android
+
+📒 **주요기술**
+
+- HTTP Client: Retrofit
+- Asynscronuous Task Manager: RxJava
+- JSON Object Mapper: Gson
+- Image Loader: Glide
+
+## 🙆🏻‍♀️서버
+
+👨‍💻 **투입인원** : 3명
+
+👨‍💻 **WAS** : Swagger + Heroku
+
+📒 **주요기술**
+
+- Web Application Framework: Spring Boot
+- Database: MySQL
+- Cache: Redis
+- Lauguage: Java
